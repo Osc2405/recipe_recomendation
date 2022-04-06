@@ -24,7 +24,7 @@ const DailyRecomendation = () => {
             , click on the recipe to get more information.
           </p>
         </div>
-        <div className='pt-10 flex flex-col md:flex-row'>
+        <div className='pt-10 flex flex-col md:flex-row items-center justify-center'>
           {dailyData.recipes.map((recipe) => (
             <RecipeCard data={recipe} />
           ))}
